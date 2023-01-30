@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+		"baseUrl": ".",
+		"target": "ES2018",
+		"module": "commonjs",
+		"jsx": "react-jsx",
+		"outDir": "./dist",
+		"strict": true,
+		"noEmit": true,
+		"lib": ["es2021"],
+		"esModuleInterop": true,
+		"skipLibCheck": true,
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["./src/", "**/*.ts", "**/*.tsx", "**/**/*.ts", "**/**/*.tsx"],
+	"ts-node": {
+		"swc": true
+	}
+	// "extends": "./tsconfig.paths.json"
+}
